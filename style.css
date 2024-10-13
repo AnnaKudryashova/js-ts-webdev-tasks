@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+  box-sizing: border-box;
+  align-content: center;
+}
+
+html,
+body {
+  font-family: 'DM Sans';
+  font-size: 16px;
+  font-style: normal;
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 1170px;
+  height: 1010px;
+  margin: 0 auto;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: var(--Colors-Heading, #1e0e62);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.4px;
+}
+
+div.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 115px;
+}
+
+.explore_showcase {
+  margin-left: auto;
+}
+
+.explore_showcase button {
+  border-radius: 100px;
+  padding: 12px 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  color: var(--Colors-Heading, #1e0e62);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.card-first,
+.card-second,
+.card-third,
+.card-fourth {
+  width: 570px;
+  height: 340px;
+  flex-shrink: 0;
+  padding: 55px 0 50px 70px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.card-first {
+  border-color: var(--Colors-Grey, #ebeaed);
+}
+
+.card-second {
+  border: 2px solid #ebeaed;
+}
+
+.card-third {
+  border-color: var(--Colors-Grey, #ebeaed);
+}
+
+.card-fourth {
+  background-image: url(assets/img/img.png);
+  border-color: var(--Colors-Grey, #ebeaed);
+}
+
+.card-content {
+  width: 465px;
+  height: 78px;
+}
+
+.card-button {
+  margin-top: auto;
+}
+
+.card-button button {
+  border-radius: 100px;
+  padding: 9px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  border-style: none;
+}
+
+.card-second .card-button button {
+  color: #fff;
+}
+
+.card-content {
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.card-first .card-content {
+  color: var(--Colors-Heading, #1e0e62);
+}
+
+.card-second .card-content {
+  color: var(--Colors-Text, rgba(21, 20, 57, 0.4));
+}
+
+.card-third .card-content,
+.card-fourth .card-content {
+  color: var(--Colors-White, #fff);
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.card-first .card-title,
+.card-second .card-title {
+  color: var(--Colors-Heading, #1e0e62);
+}
+
+.card-third .card-title,
+.card-fourth .card-title {
+  color: var(--Colors-White, #fff);
+}
