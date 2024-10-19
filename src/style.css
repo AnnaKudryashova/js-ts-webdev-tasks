@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  height: 100%;
+  margin: 0;
+}
+
+.page {
+  padding: 20px;
+}
+
+.header {
+  width: 758px;
+  margin: 0 auto 62px auto;
+  text-align: center;
+}
+
+.header__title {
+  color: var(--Colors-Heading, #1e0e62);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 20px;
+}
+
+.header__description {
+  color: var(--Colors-Text, rgba(21, 20, 57, 0.4));
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.works {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.works__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 15px);
+  border: 2px solid var(--Colors-Grey, #ebeaed);
+  border-radius: 10px;
+}
+
+.card__image {
+  width: 100%;
+  border-bottom: 2px solid var(--Colors-Grey, #ebeaed);
+}
+
+.card__content {
+  padding: 0 34px 28px 34px;
+}
+
+.card__title {
+  color: var(--Colors-Heading, #1e0e62);
+  font-size: 22px;
+  font-weight: 500;
+  margin: 24px 0 11.2px 0;
+}
+
+.card__description {
+  color: var(--Colors-Text, rgba(21, 20, 57, 0.4));
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 16.8px;
+}
+
+.card__tags {
+  color: var(--Action-Secondary, #482be7);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Loader styles */
+.loader {
+  border: 6px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 6px solid #3498db;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 50px auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Ensure the loader is centered */
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make it full-screen height */
+}

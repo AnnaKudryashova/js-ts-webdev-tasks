@@ -124,3 +124,19 @@ For example, let's assume there are some updated in `upstream/hometasks-simple-t
 2. Commit your solution
 3. _Push your solution to your forked repository_
 4. Submit a link to the branch with solution in your forked repository to the moodle
+
+## To install vite
+
+1. npm install vite
+
+## To run vite
+
+1. npm run serve
+
+## To create a build directoy with a production build
+
+1. npm run build
+
+## To test app locally
+
+1. npm run preview

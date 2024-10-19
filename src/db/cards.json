@@ -1,0 +1,110 @@
+[
+  {
+    "image": {
+      "name": "img_balloons",
+      "alt": "Balloons"
+    },
+    "title": "Startup Framework",
+    "description": "Startup Framework works fine on devices supporting Retina Display. Feel the clarity!",
+    "tags": [
+      {
+        "slug": "ui-kit",
+        "title": "Ui kit"
+      },
+      {
+        "slug": "framework",
+        "title": "Framework"
+      },
+      {
+        "slug": "landing-page",
+        "title": "Landing page"
+      },
+      {
+        "slug": "generator",
+        "title": "Generator"
+      }
+    ]
+  },
+  {
+    "image": {
+      "name": "img_bottle",
+      "alt": "Bottle"
+    },
+    "title": "Slides",
+    "description": "We have created a new product that will help designers create websites for their startups.",
+    "tags": [
+      {
+        "slug": "ui-kit",
+        "title": "Ui kit"
+      },
+      {
+        "slug": "colorful",
+        "title": "Colorful"
+      },
+      {
+        "slug": "landing-page",
+        "title": "Landing page"
+      },
+      {
+        "slug": "slide",
+        "title": "Slide"
+      }
+    ]
+  },
+  {
+    "image": {
+      "name": "img_house",
+      "alt": "House"
+    },
+    "title": "Flat UI Pro",
+    "description": "Components and blocks are fixed to the common and popular 12 Grid system.",
+    "tags": [
+      {
+        "slug": "ui-kit",
+        "title": "Ui kit"
+      },
+      {
+        "slug": "ux-kit",
+        "title": "UX kit"
+      },
+      {
+        "slug": "design",
+        "title": "Design"
+      },
+      {
+        "slug": "flat",
+        "title": "Flat"
+      },
+      {
+        "slug": "web",
+        "title": "Web"
+      }
+    ]
+  },
+  {
+    "image": {
+      "name": "img_pen",
+      "alt": "Pen"
+    },
+    "title": "Slides",
+    "description": "We have created a new product that will help designers create websites for their startups.",
+    "tags": [
+      {
+        "slug": "ui-kit",
+        "title": "Ui kit"
+      },
+      {
+        "slug": "colorful",
+        "title": "Colorful"
+      },
+      {
+        "slug": "landing-page",
+        "title": "Landing page"
+      },
+      {
+        "slug": "slide",
+        "title": "Slide"
+      }
+    ]
+  }
+]
