@@ -133,7 +133,7 @@ For example, let's assume there are some updated in `upstream/hometasks-simple-t
 
 1. npm run serve
 
-## To create a build directoy with a production build
+## To create a build directory with a production build
 
 1. npm run build
 
