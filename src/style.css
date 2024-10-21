@@ -89,7 +89,6 @@ body {
   text-transform: uppercase;
 }
 
-/* Loader styles */
 .loader {
   border: 6px solid #f3f3f3;
   border-radius: 50%;
@@ -109,10 +108,9 @@ body {
   }
 }
 
-/* Ensure the loader is centered */
 .loader-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Make it full-screen height */
+  height: 100vh;
 }
