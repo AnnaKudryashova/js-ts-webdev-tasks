@@ -1,0 +1,33 @@
+{
+  "name": "js-ts-webdev-tasks",
+  "version": "1.0.0",
+  "description": "1. Navigate to https://github.com/School-of-Digital-Competencies/js-ts-webdev-tasks\r 2. Click on `Fork` button in the top right corner\r 3. Select your personal account in the `Ownder` dropdown\r 4. Don't change the `Repository name`\r 5. _Uncheck_ button `Copy the main branch only`\r 6. Click on `Create fork` button\r 7. Navigate to your forked repository",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.21.5",
+    "nanoid": "^3.3.7",
+    "picocolors": "^1.1.1",
+    "postcss": "^8.4.47",
+    "rollup": "^4.24.0",
+    "source-map-js": "^1.2.1",
+    "vite": "^5.4.10"
+  },
+  "scripts": {
+    "serve": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaKudryashova/js-ts-webdev-tasks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaKudryashova/js-ts-webdev-tasks/issues"
+  },
+  "homepage": "https://github.com/AnnaKudryashova/js-ts-webdev-tasks#readme",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

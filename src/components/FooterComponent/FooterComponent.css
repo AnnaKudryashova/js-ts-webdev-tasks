@@ -1,0 +1,33 @@
+.footer {
+  background: url('./assets/img/footer.png');
+  height: 788px;
+  fill: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+.footer__space {
+  height: 497px;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__phone-content {
+  color: var(--main, #fe772d);
+  font-family: 'Jolly Lodger';
+  font-size: 58px;
+  text-transform: uppercase;
+  margin-bottom: 17.5px;
+}
+
+.footer__social-list {
+  display: flex;
+  gap: 17px;
+  list-style: none;
+}
+
+.footer__social-item {
+  cursor: pointer;
+}

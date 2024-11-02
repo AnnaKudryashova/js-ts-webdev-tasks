@@ -1,0 +1,36 @@
+.gallery {
+  position: relative;
+}
+
+.gallery__bats-image {
+  position: absolute;
+  top: -250px;
+  left: -50px;
+}
+
+.gallery__title {
+  color: var(--main, #fe772d);
+  text-align: center;
+  font-family: 'Jolly Lodger';
+  font-size: 58px;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
+
+.gallery__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  list-style: none;
+}
+
+.gallery__card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  list-style: none;
+}
+
+.gallery__card {
+  cursor: pointer;
+}
