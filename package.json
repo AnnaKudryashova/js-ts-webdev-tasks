@@ -1,0 +1,24 @@
+{
+  "name": "js-ts-webdev-tasks",
+  "version": "1.0.0",
+  "description": "Your team task is to implement Frontend and Backend for E-Commerce Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaKudryashova/js-ts-webdev-tasks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaKudryashova/js-ts-webdev-tasks/issues"
+  },
+  "homepage": "https://github.com/AnnaKudryashova/js-ts-webdev-tasks#readme",
+  "dependencies": {
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11"
+  }
+}
