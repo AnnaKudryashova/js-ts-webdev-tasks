@@ -1,0 +1,13 @@
+.button {
+  background-color: red;
+}
+
+.button-red {
+  background-color: white;
+  color: red;
+}
+
+.button-transparent {
+  background-color: transparent;
+  color: black;
+}
