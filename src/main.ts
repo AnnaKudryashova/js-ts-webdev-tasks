@@ -1,7 +1,6 @@
-import { AppHome } from "./templates";
-
+import { AppHomePage } from "./pages";
 
 document.addEventListener("DOMContentLoaded", () => {
-    const element = AppHome();
+    const element = AppHomePage();
     document.body.prepend(...[element]);
-})
+});
