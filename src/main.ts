@@ -1,6 +1,7 @@
-import { AppSubscribe } from "./organisms";
+import { AppHome } from "./templates";
+
 
 document.addEventListener("DOMContentLoaded", () => {
-    const element = AppSubscribe();
+    const element = AppHome();
     document.body.prepend(...[element]);
 })
