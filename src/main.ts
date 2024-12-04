@@ -1,6 +1,6 @@
-import { AppInputButton } from "./molecules";
+import { AppSubscribe } from "./organisms";
 
 document.addEventListener("DOMContentLoaded", () => {
-    const element = AppInputButton("Subscribe", "left");
+    const element = AppSubscribe();
     document.body.prepend(...[element]);
 })
