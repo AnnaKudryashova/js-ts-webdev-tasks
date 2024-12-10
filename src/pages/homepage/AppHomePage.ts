@@ -1,11 +1,18 @@
+import { loadData } from "../../backend/api";
 import { AppHome } from "../../templates";
 
-export function AppHomePage() {
-    const appHome = AppHome();
+export async function AppHomePage() {
 
     const element = document.createElement("main");
 
-    element.append(...[appHome]);
+    try {
+        const products = await loadData();
+        const appHome = AppHome({ products });
+        element.append(...[appHome]);
 
-    return element;
+    } catch(err) {
+        element.innerHTML = `<h1>Some error</h1> <pre>${JSON.stringify(err)}</pre>`;
+    } finally {
+        return element;
+    }
 }
