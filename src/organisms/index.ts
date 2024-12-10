@@ -1,1 +1,2 @@
-export * from "../organisms/subscribe/AppSubscribe";
+export * from "./subscribe/AppSubscribe";
+export * from "./products/AppProducts";
